@@ -70,10 +70,3 @@ Visit **http://localhost:5173** to access the Sorter Pro Dashboard.
 │   │   ├── pages/      # Main application views
 │   │   └── index.css   # Main design system
 ```
-
-## ⚖️ License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-Built with ❤️ for better productivity.
