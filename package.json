@@ -1,0 +1,8 @@
+{
+  "name": "sorterpro-ai",
+  "version": "1.0.0",
+  "description": "Smart AI-based file sorter with cybersecurity scanning.",
+  "scripts": {
+    "start": "start_all.bat"
+  }
+}

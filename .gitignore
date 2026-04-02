@@ -1,0 +1,28 @@
+# Node.js
+**/node_modules
+**/dist
+**/build
+**/.vite
+
+# Environment & Private Data
+.env
+.env.*
+backend/data.json
+backend/config.js
+
+# Project-Specific (Ephemeral/Temporary)
+backend/uploads/
+backend/temp_uploads/
+backend/Duplicates/
+backend/sorted_files/
+
+# Logs & Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.log
+
+# System Files 
+Thumbs.db
+Desktop.ini

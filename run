@@ -1,0 +1,7 @@
+/backend
+Stop-Process -Name node -Force; npm start
+
+/frontent
+npm run dev
+
+ http://localhost:5173/

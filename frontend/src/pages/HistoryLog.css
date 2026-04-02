@@ -1,0 +1,125 @@
+.d-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.history-board {
+  overflow: hidden;
+  background: #fff;
+}
+
+.log-header {
+  display: flex;
+  padding: 1rem 1.5rem;
+  background: var(--bg-main);
+  border-bottom: 1px solid var(--border-light);
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.col.action {
+  width: 150px;
+}
+
+.col.details {
+  flex: 1;
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.col.time {
+  width: 200px;
+  justify-content: flex-end;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.log-body {
+  max-height: 550px;
+  overflow-y: auto;
+}
+
+.log-row {
+  display: flex;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-light);
+  transition: background 0.2s;
+  align-items: center;
+}
+
+.log-row:hover {
+  background: var(--bg-main);
+}
+
+.empty-log {
+  padding: 4rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-success {
+  background: rgba(5, 205, 153, 0.1);
+  color: var(--accent-success);
+}
+
+.badge-danger {
+  background: rgba(238, 93, 80, 0.1);
+  color: var(--accent-tertiary);
+}
+
+.badge-warning {
+  background: rgba(255, 206, 32, 0.15);
+  color: var(--accent-warning);
+}
+
+.btn-icon-small {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.btn-icon-small:hover {
+  background: var(--bg-main);
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+.log-row.undone {
+  background: rgba(244, 247, 254, 0.5);
+  opacity: 0.5;
+}
