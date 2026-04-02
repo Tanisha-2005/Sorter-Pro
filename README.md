@@ -2,8 +2,6 @@
 
 **Sorter Pro** is a modern, AI-driven file organization and cybersecurity platform. It automatically categorizes your uploads into smart directories based on file content, metadata, and security signatures, helping you maintain a pristine digital workspace.
 
-![Sorter Pro Dashboard](https://github.com/user-attachments/assets/b6a2f7c0-2e4a-4c27-9fb6-59270281b0b7) *(Note: Replace with your actual screenshot!)*
-
 ## 🚀 Key Features
 
 - **🔍 Smart AI Sorting**: Uses NLP (Natural Language Processing) to scan text-based files and automatically route them to specific folders like "Job Docs" for resumes or "Study Material" for lectures.
